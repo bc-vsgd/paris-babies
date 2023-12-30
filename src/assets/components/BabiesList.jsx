@@ -17,8 +17,8 @@ const BabiesList = (props) => {
   const number = data.number;
 
   return (
-    <ul>
-      <p>{`Les ${number} prénoms ${gender} les plus donnés à Paris en ${year}`}</p>
+    <ul className="babies-list grey-border">
+      <p>{`Les ${number} prénoms ${gender} les plus donnés à Paris en ${year} sont :`}</p>
       {records.map((record, ind) => {
         return (
           <BabyItem

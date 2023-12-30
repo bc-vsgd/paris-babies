@@ -2,7 +2,7 @@ const BirthsSummary = (props) => {
   const { yearResult, girlsResult, boysResult, year } = props.data;
 
   return (
-    <div>
+    <div className="births-summary">
       <p>
         {yearResult} bébés sont nés en {year}
       </p>

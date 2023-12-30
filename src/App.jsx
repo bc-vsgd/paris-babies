@@ -26,9 +26,9 @@ function App() {
   return (
     <>
       <Header />
-      <main>
+      <main className="container grey-border">
         <Form usestates={{ setUserChoice, setTotalBirths }} />
-        <div>
+        <div className="display-names-div">
           {/* List of babies names */}
           {userChoice.records.length > 0 && <BabiesList data={userChoice} />}
           {/* Summary of number of births */}

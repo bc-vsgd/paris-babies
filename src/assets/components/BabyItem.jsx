@@ -3,9 +3,12 @@ const BabyItem = (props) => {
 
   return (
     <li>
-      <p>
-        <span>{ind + 1}</span> <span>{name}</span> <span>{number}</span>
-      </p>
+      <div>
+        <p>
+          <span>{ind + 1}</span> <span>{name}</span>
+        </p>
+        <span>{number}</span>
+      </div>
     </li>
   );
 };
