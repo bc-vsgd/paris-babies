@@ -1,4 +1,4 @@
-import logo_paris from "../img/Logo_Paris.png";
+import logo_paris from "../img/logo_paris.png";
 
 const Header = () => {
   return (
