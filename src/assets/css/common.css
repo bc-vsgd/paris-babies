@@ -1,1 +1,78 @@
-/* Common style rules */
+/* COMMON STYLE RULES */
+
+/* COMMON */
+
+.container {
+  margin: 0 auto;
+}
+.grey-border {
+  border-bottom: 1px solid grey;
+}
+body,
+button {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+select,
+button {
+  border-radius: 5px;
+}
+button {
+  border: 1px solid black;
+}
+
+/* HEADER */
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+header img {
+  object-fit: contain;
+}
+
+/* MAIN */
+
+select:hover {
+  cursor: pointer;
+}
+form button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+form > div div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.babies-list li div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.babies-list li div p {
+  display: flex;
+}
+
+/* FOOTER */
+
+footer div {
+  display: flex;
+}
+footer p,
+footer a {
+  display: flex;
+  align-items: center;
+}
+footer img {
+  border-radius: 50%;
+}
+footer .fa-linkedin {
+  color: #0b65c2;
+}

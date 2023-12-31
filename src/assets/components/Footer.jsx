@@ -22,7 +22,7 @@ const Footer = () => {
         </p>
         <p>
           <span>by </span>
-          <a href="https://github.com/bc-vsgd" target="_blank">
+          <a href="https://github.com/bc-vsgd/paris-babies" target="_blank">
             Benoît Charles <i className="fa-brands fa-github"></i>
           </a>
           <a

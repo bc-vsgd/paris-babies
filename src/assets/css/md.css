@@ -1,1 +1,63 @@
-/* Style rules for greater than 768px screens */
+/* STYLE RULES FOR GREATER THAN 768 PX SCREENS */
+
+@media (min-width: 768px) {
+  /* COMMON */
+
+  .md-visible {
+    display: inline;
+  }
+  .container {
+    width: 650px;
+  }
+
+  /* HEADER */
+
+  header div {
+    font-size: 32px;
+    padding-bottom: 30px;
+  }
+  header img {
+    height: 60px;
+    width: 60px;
+  }
+
+  /* MAIN */
+
+  form > div div {
+    justify-content: center;
+  }
+  form label {
+    width: 350px;
+  }
+  .babies-list > p {
+    margin-left: 85px;
+  }
+  .babies-list li div {
+    justify-content: center;
+  }
+  .babies-list li div p {
+    width: 350px;
+  }
+  .babies-list li div p span:first-child {
+    width: 30px;
+  }
+  .births-summary {
+    display: flex;
+    margin-left: 95px;
+  }
+  .births-summary .p-margin-right {
+    margin-right: 3px;
+  }
+  .births-summary .p-margin {
+    margin: 0 3px;
+  }
+  .display-names-div {
+    padding-bottom: 30px;
+  }
+
+  /* FOOTER */
+
+  footer div {
+    padding: 30px 0;
+  }
+}

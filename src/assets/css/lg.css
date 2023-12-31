@@ -1,1 +1,79 @@
-/* Style rules for greater than 992px screens */
+/* STYLE RULES FOR MORE THAN 992 PX SCREENS */
+
+@media (min-width: 992px) {
+  /* COMMON */
+
+  .container {
+    width: 800px;
+  }
+
+  /* HEADER */
+
+  header {
+    margin-bottom: 40px;
+  }
+  header div {
+    font-size: 36px;
+    padding-bottom: 40px;
+  }
+  header p {
+    width: 560px;
+  }
+  header img {
+    height: 70px;
+    width: 70px;
+  }
+
+  /* MAIN */
+
+  form {
+    font-size: 20px;
+  }
+  form label {
+    width: 400px;
+  }
+  form select,
+  form button {
+    font-size: 20px;
+    height: 35px;
+    width: 110px;
+  }
+  form button {
+    margin: 30px auto 20px auto;
+  }
+  .display-names-div {
+    padding: 30px 0;
+    line-height: 36px;
+  }
+  .babies-list {
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+  .babies-list > p {
+    margin-left: 135px;
+    padding-bottom: 20px;
+  }
+  .babies-list li div p {
+    width: 400px;
+  }
+  .babies-list li div p span:first-child {
+    width: 40px;
+  }
+  .births-summary {
+    font-size: 20px;
+    margin-left: 145px;
+    padding: 30px 5px;
+  }
+  .births-summary p {
+    padding-bottom: 10px;
+  }
+  .births-summary .p-margin {
+    margin: 0 5px;
+  }
+
+  /* FOOTER */
+
+  footer div {
+    font-size: 16px;
+  }
+}

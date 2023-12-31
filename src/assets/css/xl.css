@@ -1,1 +1,14 @@
-/* Style rules for greater than 1200px screens */
+/* STYLE RULES FOR GREATER THAN 1200 PX SCREENS */
+
+@media (min-width: 1200px) {
+  /* HEADER */
+
+  header div {
+    justify-content: center;
+    gap: 80px;
+  }
+  header img {
+    height: 90px;
+    width: 90px;
+  }
+}
